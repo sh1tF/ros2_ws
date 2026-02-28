@@ -1,0 +1,86 @@
+[3.718s] Invoking command in '/home/student/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/student/ros2_ws/build/my_robot_controller/build install --record /home/student/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[4.751s] running egg_info
+[4.751s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[4.837s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[4.840s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[4.841s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[4.842s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[4.843s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[5.196s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[5.388s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[5.391s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[5.392s] running build
+[5.392s] running build_py
+[5.393s] creating /home/student/ros2_ws/build/my_robot_controller/build
+[5.393s] creating /home/student/ros2_ws/build/my_robot_controller/build/lib
+[5.393s] creating /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.394s] copying my_robot_controller/__init__.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.394s] copying my_robot_controller/battery_node.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.394s] copying my_robot_controller/encoder_simulator.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.394s] copying my_robot_controller/imu_reader.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.395s] copying my_robot_controller/imu_simulator.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.395s] copying my_robot_controller/lidar_simulator.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.395s] copying my_robot_controller/motor_simulator.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.395s] copying my_robot_controller/my_first_node.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.396s] copying my_robot_controller/robot_news_station.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.396s] copying my_robot_controller/smartphone.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.397s] copying my_robot_controller/static_transform_publisher.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.397s] copying my_robot_controller/system_monitor.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.397s] copying my_robot_controller/wheel_odometry.py -> /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[5.397s] running install
+[5.415s] running install_lib
+[5.448s] creating /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.448s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.448s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/battery_node.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.449s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/encoder_simulator.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.449s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/imu_reader.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.449s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/imu_simulator.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.450s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/lidar_simulator.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.450s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/motor_simulator.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.450s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.450s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/robot_news_station.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.450s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/smartphone.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.450s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/static_transform_publisher.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.450s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/system_monitor.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.450s] copying /home/student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/wheel_odometry.py -> /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller
+[5.451s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/__init__.py to __init__.cpython-312.pyc
+[5.451s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/battery_node.py to battery_node.cpython-312.pyc
+[5.453s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/encoder_simulator.py to encoder_simulator.cpython-312.pyc
+[5.454s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/imu_reader.py to imu_reader.cpython-312.pyc
+[5.455s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/imu_simulator.py to imu_simulator.cpython-312.pyc
+[5.456s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/lidar_simulator.py to lidar_simulator.cpython-312.pyc
+[5.458s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/motor_simulator.py to motor_simulator.cpython-312.pyc
+[5.459s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-312.pyc
+[5.460s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/robot_news_station.py to robot_news_station.cpython-312.pyc
+[5.460s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/smartphone.py to smartphone.cpython-312.pyc
+[5.461s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/static_transform_publisher.py to static_transform_publisher.cpython-312.pyc
+[5.462s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/system_monitor.py to system_monitor.cpython-312.pyc
+[5.464s] byte-compiling /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller/wheel_odometry.py to wheel_odometry.cpython-312.pyc
+[5.465s] running install_data
+[5.465s] creating /home/student/ros2_ws/install/my_robot_controller/share/ament_index
+[5.466s] creating /home/student/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[5.466s] creating /home/student/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[5.466s] copying resource/my_robot_controller -> /home/student/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[5.466s] copying package.xml -> /home/student/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[5.466s] creating /home/student/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[5.466s] copying launch/hardware_simulation.launch.py -> /home/student/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[5.466s] copying launch/robot_simulation.launch.py -> /home/student/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[5.467s] copying launch/view_robot.launch.py -> /home/student/ros2_ws/install/my_robot_controller/share/my_robot_controller/launch
+[5.467s] creating /home/student/ros2_ws/install/my_robot_controller/share/my_robot_controller/urdf
+[5.467s] running install_egg_info
+[5.503s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages/my_robot_controller-0.0.0-py3.12.egg-info
+[5.505s] running install_scripts
+[5.790s] Installing battery_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.792s] Installing encoder_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.792s] Installing imu_reader script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.793s] Installing imu_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.794s] Installing lidar_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.794s] Installing motor_simulator script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.795s] Installing my_first_node script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.795s] Installing robot_news_station script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.795s] Installing smartphone script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.796s] Installing static_transform_publisher script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.796s] Installing system_monitor script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.796s] Installing wheel_odometry script to /home/student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.796s] writing list of installed files to '/home/student/ros2_ws/build/my_robot_controller/install.log'
+[5.915s] Invoked command in '/home/student/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/student/ros2_ws/build/my_robot_controller/build install --record /home/student/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
